@@ -1,0 +1,51 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.61);
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  line-height: 55px;
+}
+
+.model {
+  width: fit-content;
+  height: 400px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.model img {
+  height: 100%;
+}
+
+.model .glasses {
+  position: absolute;
+  top: 110px;
+  left: 30%;
+}
+
+.model .glasses img {
+  width: 140px;
+  height: auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.products .item .itemContent {
+  padding: 10px;
+}
+
+.products .item .itemContent img {
+  width: 100%;
+}
