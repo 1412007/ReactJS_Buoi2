@@ -49,3 +49,13 @@
 .products .item .itemContent img {
   width: 100%;
 }
+
+.shoesProduct {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.shoesProduct img {
+  width: 100%;
+  height: auto;
+}

@@ -1,9 +1,9 @@
-import BaiTap from "./components/BaiTap";
+import Shopping from "./components/BaiTapProps/Shopping";
 
 function App() {
   return (
     <div className="App">
-      <BaiTap />
+      <Shopping />
     </div>
   );
 }
